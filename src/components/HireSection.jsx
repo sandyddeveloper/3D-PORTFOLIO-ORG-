@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const HireSection = () => {
+import { SectionWrapper } from "../hoc";
+import HireMeButton from "./HireButton";
+
+const HireMe = () => {
   return (
-    <div>HireSection</div>
-  )
-}
+    <div className="flex flex-row flex-wrap justify-center">
+      <HireMeButton />
+    </div>
+  );
+};
 
-export default HireSection
+export default SectionWrapper(HireMe, "");
