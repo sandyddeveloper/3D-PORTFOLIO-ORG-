@@ -5,7 +5,7 @@ const Footer = () => {
     <footer style={{ paddingTop: "16px", paddingBottom: "16px", backgroundColor: "#0f0715" }}>
       <div>
         <img
-          src="public/_ DEVxNET.png"
+          src="./_ DEVxNET.png"
           alt="logo"
           style={{ margin: "0 auto", display: "block", width: "auto", height: "auto", maxWidth: "180px", maxHeight: "180px" }}
         />
